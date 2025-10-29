@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Settings, User, MessageCircle, Search, Sidebar, Lightbulb, LogOut, X, SlidersHorizontal, Brain, Mic, Sun, Image, Clock, Activity, Send, Loader, Heart } from 'lucide-react';
 import { auth, onAuthChange, getCurrentUser, formatUserData } from "/src/firebase.js";
 import { signOut } from "firebase/auth";
-import { fetchUserChats, saveUserChat, updateUserChat } from '../src/api/chatAPI';
+import { fetchUserChats, saveUserChat, updateUserChat } from '../src/api/chatApi';
 
 export default function ChatPage() {
   const [showProfileMenu, setShowProfileMenu] = useState(false);
