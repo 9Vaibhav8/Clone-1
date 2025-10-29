@@ -8,6 +8,7 @@ pillow
 fastapi
 uvicorn
 tf-keras
+pydantic
 moviepy
 opencv-python
 fer
@@ -16,4 +17,5 @@ soundfile
 transformers==4.31.0
 tokenizers==0.13.3
 torch>=2.0.0
-pydantic
+--extra-index-url https://download.pytorch.org/whl/cpu
+
