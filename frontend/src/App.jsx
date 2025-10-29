@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "../pages/home.jsx";
 import Auth from "../pages/auth.jsx";
 import Chatpage from "../pages/chatpage.jsx";
-import OAuthCallback from "../OAuthcallback.jsx";
+import OAuthCallback from "../OAuthCallBack.jsx";
 function App() {
   return (
     <Router>
